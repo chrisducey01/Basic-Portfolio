@@ -102,7 +102,7 @@ footer{
     height: 50px;
     position: absolute;
     width: 270px;
-    bottom: 10px;
+    bottom: 30px;
 }
 
 .portfolioLink{
@@ -115,3 +115,22 @@ footer{
     text-decoration: none;
     font-size: 20px;
 }
+
+.inputBox{
+    width: 100%; 
+    padding: 5px;
+    
+}
+
+.inputHeaders{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-top: 10px;
+  }
