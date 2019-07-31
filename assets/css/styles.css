@@ -63,7 +63,7 @@ section{
 h2{
     clear: both;
     color: #4aaaa5;
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     border-bottom: 3px solid #cccccc;
 }
 
@@ -84,7 +84,7 @@ footer{
 .portfolioImageBox{
     width: 290px;
     height: 220px;
-    margin: 10px;
+    margin: 10px 20px 10px 0px;
     padding: 0;
     display: inline-block;
     position: relative;
