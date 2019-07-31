@@ -13,16 +13,19 @@ body{
     margin: 0 auto;
     background: #ffffff;
     overflow: auto;
+    height: 79px;
 }
 
 header{
   border-bottom : 1px solid #cccccc;
+  height: 80px;
 }
 
 
 #mainContent{
     background: url("../images/interlaced.png");
     overflow: auto;
+    
 }
 
 #linkDiv{
@@ -48,6 +51,8 @@ h1{
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin : 0;
     float:left;
+    height: 79px;
+    border-bottom: 1px solid #cccccc;
 }
 
 section{
