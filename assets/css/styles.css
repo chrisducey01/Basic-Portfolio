@@ -150,9 +150,10 @@ input[type=submit] {
 
   footer{
     background: #666666;
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 5px;
     border-top: 10px solid #4aaaa5;
 }
