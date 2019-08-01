@@ -8,7 +8,15 @@ body{
     margin: 0;
 }
 
-.content{
+/* 
+  CSS definitions for header
+*/
+header{
+  border-bottom : 1px solid #cccccc;
+  height: 80px;
+}
+
+#headerContent{
     width: 960px;
     margin: 0 auto;
     background: #ffffff;
@@ -16,16 +24,15 @@ body{
     height: 79px;
 }
 
-header{
-  border-bottom : 1px solid #cccccc;
-  height: 80px;
-}
-
-
-#mainContent{
-    background: url("../images/interlaced.png");
-    overflow: auto;
-    
+h1{
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin : 0;
+    float:left;
+    height: 80px;
+    border-bottom: 1px solid #cccccc;
 }
 
 #linkDiv{
@@ -44,15 +51,14 @@ header{
     border-right: none;
 }
 
-h1{
-    background: #4aaaa5;
-    color: white;
-    padding: 20px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin : 0;
-    float:left;
-    height: 79px;
-    border-bottom: 1px solid #cccccc;
+
+/* 
+  CSS definitions for main body content below header
+*/
+#mainContent{
+    background: url("../images/interlaced.png");
+    overflow: auto;
+    
 }
 
 section{
@@ -69,7 +75,7 @@ h2{
     clear: both;
     color: #4aaaa5;
     padding: 10px 10px 10px 0px;
-    border-bottom: 3px solid #cccccc;
+    border-bottom: 3px solid #dddddd;
 }
 
 .floatImage{
@@ -77,13 +83,9 @@ h2{
     margin-right: 10px;
 }
 
-footer{
-    background: #666666;
-    font-size: 12px;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    border-top: 10px solid #4aaaa5;
+#profileImage{
+    height: 320px;
+    width: 240px;
 }
 
 .portfolioImageBox{
@@ -124,7 +126,7 @@ footer{
 .inputBox{
     width: 100%; 
     padding: 5px;
-    
+    color: #777777;
 }
 
 .inputHeaders{
@@ -139,3 +141,18 @@ input[type=submit] {
     font-size: 14px;
     margin-top: 10px;
   }
+
+  
+  textarea{
+      border-color: #dddddd;
+      height: 150px;
+  }
+
+  footer{
+    background: #666666;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 10px solid #4aaaa5;
+}
